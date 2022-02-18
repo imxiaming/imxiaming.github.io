@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>夏明</title>
+    <link>https://xiaming.com.cn/</link>
+    <description>Recent content on 夏明</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>Copyright © 2022 夏明 all rights reserved.</copyright>
+    <lastBuildDate>Sat, 28 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaming.com.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于</title>
+      <link>https://xiaming.com.cn/about/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaming.com.cn/about/</guid>
+      <description>关于本站 一个记录我生活的小网站。
+关于我  姓名：夏明 性别：男 生日：1998-05-06 职业：Web前端开发工程师 家乡：中国杭州 爱好：汽车、电子产品、游戏、旅行  联系我  Email：i#xiaming.com.cn（请将#替换成@）  </description>
+    </item>
+    
+    <item>
+      <title>M1 Mac安装Homebrew</title>
+      <link>https://xiaming.com.cn/post/m1-mac-homebrew/</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaming.com.cn/post/m1-mac-homebrew/</guid>
+      <description>本文介绍如何在搭载M1芯片的Mac电脑上快速安装Homebrew，我在自己的M1 MacBook Pro上亲测可行！
+下载安装脚本 进入Homebrew官网（https://brew.sh/）下载安装脚本到本地。
+替换国内镜像源 使用编辑器打开Homebrew安装脚本，搜索HOMEBREW_BREW_DEFAULT_GIT_REMOTE和HOMEBREW_CORE_DEFAULT_GIT_REMOTE，将值替换成与下方相对应的地址：
+https://mirrors.ustc.edu.cn/brew.git https://mirrors.ustc.edu.cn/homebrew-core.git 安装Homebrew 进入bash终端bash运行安装脚本/bin/bash brew_install，安装完成后退出bashexit。
+添加PASH 在终端打开.zshrcopen ~/.zshrc，如果没有这个文件就新建一个touch .zshrc，添加以下命令：
+path=(&#39;/opt/homebrew/bin&#39; $path) export PATH 最后保存文件，重启终端，输入brew就可以看到Homebrew已经安装成功了！</description>
+    </item>
+    
+    <item>
+      <title>M1 Mac安装Rosetta 2</title>
+      <link>https://xiaming.com.cn/post/m1-mac-rosetta/</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaming.com.cn/post/m1-mac-rosetta/</guid>
+      <description>如何在M1 Mac上运行x86应用？新购买的M1 Mac，比如M1 MacBook Pro等机子上，如果想要运行x86应用，则需要Rosetta 2技术。但是有些M1 Mac上却并未安装Rosetta 2，因此需要自己手动安装Rosetta 2，该如何操作呢？
+第一种方法 如果您在M1 Mac上有任何可用的x86应用，只需启动该应用就会提示用户安装Rosetta 2。单击“安装”，然后就可以将Rosetta 2安装到M1 Mac上了。
+第二种方法 在Mac上安装Rosetta 2的另一种方法是使用熟悉的softwareupdate命令行工具。
+softwareupdate --install-rosetta 这将启动rosetta 2安装程序，您必须同意许可协议，您会在每次在每台设备上安装任何东西时都做完整而透彻的阅读。
+您还可以通过提供其他标志来跳过许可协议：
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license </description>
+    </item>
+    
+    <item>
+      <title>M1 Mac搭建前端开发环境</title>
+      <link>https://xiaming.com.cn/post/m1-mac-web-development-environment/</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaming.com.cn/post/m1-mac-web-development-environment/</guid>
+      <description>本文介绍如何在搭载M1芯片的Mac电脑上搭建Web前端开发环境，我在自己的M1 MacBook Pro上亲测可行！
+安装nvm 在终端执行以下命令：
+git clone https://gitee.com/mirrors/nvm.git ~/.nvm cd ~/.nvm git checkout `git describe --abbrev=0 --tags` 解决commond not found:nvm 1.进入.nvm文件夹cd ~/.nvm
+2.查看有没有.bash_profile文件，如果有的话直接打开open .bash_profile，如果没有的话先新建 touch .bash_profile，新建完成之后打开，粘贴以下代码保存：
+export NVM_DIR=&amp;quot;$HOME/.nvm&amp;quot; [ -s &amp;quot;$NVM_DIR/nvm.sh&amp;quot; ] &amp;amp;&amp;amp; \. &amp;quot;$NVM_DIR/nvm.sh&amp;quot; 3.编译.bash_profilesource .bash_profile
+4.检查是否可以使用，直接执行nvm
+解决每次关闭终端后，都需要重新编译.bash_profile才能使用nvm 原因：没有将配置添加到.zshrc文件中
+1.到这里的时候需要看看我们是否有.zshrc文件，如果有就直接打开open ~/.zshrc
+export NVM_DIR=~/.nvm [ -s &amp;quot;$NVM_DIR/nvm.sh&amp;quot; ] &amp;amp;&amp;amp; . &amp;quot;$NVM_DIR/nvm.sh&amp;quot; 2.如果没有.zshrc文件，先新建touch .zshrc，新建完成之后打开open -e .zshrc，粘贴source ~/.bash_profile保存，保存完成之后刷新环境source .zshrc
+安装Node.js 使用nvm安装Node.js
+nvm install v14.17.5 安装VS Code 官网：https://code.visualstudio.com/</description>
+    </item>
+    
+    <item>
+      <title>vue2与vue3的区别</title>
+      <link>https://xiaming.com.cn/post/vue2-vue3/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaming.com.cn/post/vue2-vue3/</guid>
+      <description>vue2和vue3双向数据绑定原理发生了改变 vue2的双向数据绑定是利用ES5的一个API Object.definePropert()对数据进行劫持结合发布订阅模式的方式来实现的。
+vue3中使用了es6的ProxyAPI对数据代理。
+ 相比于vue2.x，使用proxy的优势如下
+ defineProperty只能监听某个属性，不能对全对象监听 可以省去for in、闭包等内容来提升效率（直接绑定整个对象即可） 可以监听数组，不用再去单独的对数组做特异性操作，vue3.x可以检测到数组内部数据的变化   Vue3支持碎片(Fragments) 就是说在组件可以拥有多个根节点。
+vue2 &amp;lt;template&amp;gt; &amp;lt;div class=&#39;form-element&#39;&amp;gt; &amp;lt;h2&amp;gt; {{ title }} &amp;lt;/h2&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; vue3 &amp;lt;template&amp;gt; &amp;lt;div class=&#39;form-element&#39;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;h2&amp;gt; {{ title }} &amp;lt;/h2&amp;gt; &amp;lt;/template&amp;gt; Composition API Vue2与Vue3 最大的区别 — Vue2使用选项类型API（Options API）对比Vue3合成型API（Composition API）
+ 旧的选项型API在代码里分割了不同的属性: data,computed属性，methods，等等。新的合成型API能让我们用方法（function）来分割，相比于旧的API使用属性来分组，这样代码会更加简便和整洁。
+ vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &amp;quot;buttonComponent&amp;quot;: btnComponent }, computed: { fullName() { return this.</description>
+    </item>
+    
+    <item>
+      <title>nvm常用命令</title>
+      <link>https://xiaming.com.cn/post/nvm-command/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaming.com.cn/post/nvm-command/</guid>
+      <description>nvm install stable 安装最新稳定版本node
+nvm install &amp;lt;version&amp;gt; 安装指定版本node，例：nvm install v14.15.4
+nvm uninstall &amp;lt;version&amp;gt; 卸载已安装的指定版本node，例：nvm uninstall v14.15.4
+nvm use &amp;lt;version&amp;gt; 切换使用指定的版本node（临时），例：nvm use v14.15.4
+nvm alias default &amp;lt;version&amp;gt; 切默认版本，例：nvm alias default v14.15.4
+nvm ls 列出所有已安装的node版本
+nvm ls-remote 列出所有可安装的node版本</description>
+    </item>
+    
+  </channel>
+</rss>

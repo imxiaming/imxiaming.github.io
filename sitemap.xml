@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://xiaming.com.cn/about/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/post/m1-mac-homebrew/</loc>
+    <lastmod>2021-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/post/m1-mac-rosetta/</loc>
+    <lastmod>2021-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/post/m1-mac-web-development-environment/</loc>
+    <lastmod>2021-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/post/</loc>
+    <lastmod>2021-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/</loc>
+    <lastmod>2021-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/post/vue2-vue3/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/post/nvm-command/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiaming.com.cn/categories/</loc>
+  </url><url>
+    <loc>https://xiaming.com.cn/series/</loc>
+  </url><url>
+    <loc>https://xiaming.com.cn/tags/</loc>
+  </url>
+</urlset>
