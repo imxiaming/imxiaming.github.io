@@ -269,7 +269,7 @@ img {
 
 .main-title {
   margin-bottom: calc(var(--y-gap) + 1rem);
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 400;
   color: var(--lit);
 }
