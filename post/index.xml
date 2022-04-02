@@ -7,7 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Copyright © 2022 夏明 all rights reserved.</copyright>
-    <lastBuildDate>Sat, 19 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaming.com.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaming.com.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前端常用网站及工具</title>
+      <link>https://xiaming.com.cn/post/web-development-tools/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaming.com.cn/post/web-development-tools/</guid>
+      <description>常用网站 必知 w3school：https://www.w3school.com.cn/index.html
+菜鸟教程：https://www.runoob.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Less官网（CSS预处理器，通过编程的方式来开发CSS）：http://lesscss.org/
+ES6入门（阮一峰大佬的）：http://es6.ruanyifeng.com/
+babel（将ES6代码转为ES5代码）：https://babeljs.io/
+MDN开发者文档：https://developer.mozilla.org/zh-CN/
+NodeJS官网：http://nodejs.cn/
+三大流行框架 Vue.JS：https://cn.vuejs.org/
+Angular：https://www.angular.cn
+React：https://react.docschina.org/
+常用组件库及插件 饿了么element-ui：https://element.eleme.cn/
+Ant Design：https://ant.design/components/overview-cn/
+Ant Design of Vue：https://www.antdv.com/docs/vue/introduce-cn/
+mint-ui：http://mint-ui.github.io/docs/
+vant-ui：https://vant-contrib.gitee.io/vant/
+iViewUI：https://www.iviewui.com/
+阿里图标库：https://www.iconfont.cn/
+图表库Echarts：https://www.echartsjs.com/index.html
+前端打包工具 webpack：https://webpack.js.org/
+gulp中文文档：https://www.gulpjs.com.cn/docs/
+代码托管 github代码托管平台：https://github.com/
+git官网：https://git-scm.com/
+coding代码托管平台：https://coding.net/
+码云代码托管平台：https://gitee.com/
+SVN代码托管平台：https://svnbucket.com/
+SVN代码托管中心：http://www.svnchina.com/
+常看 CSDN：https://csdn.net/
+思否（问答网站）：https://segmentfault.com/
+掘金：https://juejin.cn/frontend
+OSCHINA：https://www.oschina.net/
+常用工具 Sourcetree（GIt可视化工具）：https://www.sourcetreeapp.com/
+Snipaste（截图贴图工具）：https://zh.snipaste.com/
+Vetur（VSCode插件，VSCode应用商店搜索安装）
+ESLint（VSCode插件，VSCode应用商店搜索安装），配置方法如下：
+在settings.json文件中加入以下代码：
+&amp;#34;eslint.validate&amp;#34;: [  &amp;#34;javascript&amp;#34;,  &amp;#34;javascriptreact&amp;#34;,  {  &amp;#34;language&amp;#34;: &amp;#34;html&amp;#34;,  &amp;#34;autoFix&amp;#34;: true  },  {  &amp;#34;language&amp;#34;: &amp;#34;vue&amp;#34;,  &amp;#34;autoFix&amp;#34;: true  } ], &amp;#34;eslint.</description>
+    </item>
+    
     <item>
       <title>2021年买的电子产品</title>
       <link>https://xiaming.com.cn/post/2021-buy-electronics/</link>
@@ -32,7 +78,7 @@ iPhone 13 Pro，一个字，香！</description>
 替换国内镜像源 使用编辑器打开Homebrew安装脚本，搜索HOMEBREW_BREW_DEFAULT_GIT_REMOTE和HOMEBREW_CORE_DEFAULT_GIT_REMOTE，将值替换成与下方相对应的地址：
 https://mirrors.ustc.edu.cn/brew.git https://mirrors.ustc.edu.cn/homebrew-core.git 安装Homebrew 进入bash终端bash运行安装脚本/bin/bash brew_install，安装完成后退出bashexit。
 添加PASH 在终端打开.zshrcopen ~/.zshrc，如果没有这个文件就新建一个touch .zshrc，添加以下命令：
-path=(&#39;/opt/homebrew/bin&#39; $path) export PATH 最后保存文件，重启终端，输入brew就可以看到Homebrew已经安装成功了！</description>
+path=(&amp;#39;/opt/homebrew/bin&amp;#39; $path) export PATH 最后保存文件，重启终端，输入brew就可以看到Homebrew已经安装成功了！</description>
     </item>
     
     <item>
@@ -59,11 +105,11 @@ softwareupdate --install-rosetta 这将启动rosetta 2安装程序，您必须�
 安装nvm 在终端执行以下命令：
 git clone https://gitee.com/mirrors/nvm.git ~/.nvm cd ~/.nvm git checkout `git describe --abbrev=0 --tags` 解决commond not found:nvm 1.进入.nvm文件夹cd ~/.nvm
 2.查看有没有.bash_profile文件，如果有的话直接打开open .bash_profile，如果没有的话先新建 touch .bash_profile，新建完成之后打开，粘贴以下代码保存：
-export NVM_DIR=&amp;quot;$HOME/.nvm&amp;quot; [ -s &amp;quot;$NVM_DIR/nvm.sh&amp;quot; ] &amp;amp;&amp;amp; \. &amp;quot;$NVM_DIR/nvm.sh&amp;quot; 3.编译.bash_profilesource .bash_profile
+export NVM_DIR=&amp;#34;$HOME/.nvm&amp;#34; [ -s &amp;#34;$NVM_DIR/nvm.sh&amp;#34; ] &amp;amp;&amp;amp; \. &amp;#34;$NVM_DIR/nvm.sh&amp;#34; 3.编译.bash_profilesource .bash_profile
 4.检查是否可以使用，直接执行nvm
 解决每次关闭终端后，都需要重新编译.bash_profile才能使用nvm 原因：没有将配置添加到.zshrc文件中
 1.到这里的时候需要看看我们是否有.zshrc文件，如果有就直接打开open ~/.zshrc
-export NVM_DIR=~/.nvm [ -s &amp;quot;$NVM_DIR/nvm.sh&amp;quot; ] &amp;amp;&amp;amp; . &amp;quot;$NVM_DIR/nvm.sh&amp;quot; 2.如果没有.zshrc文件，先新建touch .zshrc，新建完成之后打开open -e .zshrc，粘贴source ~/.bash_profile保存，保存完成之后刷新环境source .zshrc
+export NVM_DIR=~/.nvm [ -s &amp;#34;$NVM_DIR/nvm.sh&amp;#34; ] &amp;amp;&amp;amp; . &amp;#34;$NVM_DIR/nvm.sh&amp;#34; 2.如果没有.zshrc文件，先新建touch .zshrc，新建完成之后打开open -e .zshrc，粘贴source ~/.bash_profile保存，保存完成之后刷新环境source .zshrc
 安装Node.js 使用nvm安装Node.js
 nvm install v14.17.5 安装VS Code 官网：https://code.visualstudio.com/</description>
     </item>
@@ -78,9 +124,9 @@ nvm install v14.17.5 安装VS Code 官网：https://code.visualstudio.com/</desc
 vue3中使用了es6的ProxyAPI对数据代理。
  相比于vue2.x，使用proxy的优势如下
  defineProperty只能监听某个属性，不能对全对象监听 可以省去for in、闭包等内容来提升效率（直接绑定整个对象即可） 可以监听数组，不用再去单独的对数组做特异性操作，vue3.x可以检测到数组内部数据的变化   Vue3支持碎片(Fragments) 就是说在组件可以拥有多个根节点。
-vue2 &amp;lt;template&amp;gt; &amp;lt;div class=&#39;form-element&#39;&amp;gt; &amp;lt;h2&amp;gt; {{ title }} &amp;lt;/h2&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; vue3 &amp;lt;template&amp;gt; &amp;lt;div class=&#39;form-element&#39;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;h2&amp;gt; {{ title }} &amp;lt;/h2&amp;gt; &amp;lt;/template&amp;gt; Composition API Vue2与Vue3 最大的区别 — Vue2使用选项类型API（Options API）对比Vue3合成型API（Composition API）
+vue2 &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#39;form-element&amp;#39;&amp;gt; &amp;lt;h2&amp;gt; {{ title }} &amp;lt;/h2&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; vue3 &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#39;form-element&amp;#39;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;h2&amp;gt; {{ title }} &amp;lt;/h2&amp;gt; &amp;lt;/template&amp;gt; Composition API Vue2与Vue3 最大的区别 — Vue2使用选项类型API（Options API）对比Vue3合成型API（Composition API）
  旧的选项型API在代码里分割了不同的属性: data,computed属性，methods，等等。新的合成型API能让我们用方法（function）来分割，相比于旧的API使用属性来分组，这样代码会更加简便和整洁。
- vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &amp;quot;buttonComponent&amp;quot;: btnComponent }, computed: { fullName() { return this.</description>
+ vue2 export default { props: { title: String }, data () { return { username: &amp;#39;&amp;#39;, password: &amp;#39;&amp;#39; } }, methods: { login () { // 登陆方法 } }, components: { &amp;#34;buttonComponent&amp;#34;: btnComponent }, computed: { fullName() { return this.</description>
     </item>
     
     <item>

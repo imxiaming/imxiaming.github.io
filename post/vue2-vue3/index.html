@@ -33,7 +33,7 @@ vue3中使用了es6的ProxyAPI对数据代理。
  defineProperty只能监听某个属性，不能对全对象监听 可以省去for in、闭包等内容来提升效率（直接绑定整个对象即可） 可以监听数组，不用再去单独的对数组做特异性操作，vue3.x可以检测到数组内部数据的变化   Vue3支持碎片(Fragments) 就是说在组件可以拥有多个根节点。
 vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/div&gt; &lt;/template&gt; vue3 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;/div&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/template&gt; Composition API Vue2与Vue3 最大的区别 — Vue2使用选项类型API（Options API）对比Vue3合成型API（Composition API）
  旧的选项型API在代码里分割了不同的属性: data,computed属性，methods，等等。新的合成型API能让我们用方法（function）来分割，相比于旧的API使用属性来分组，这样代码会更加简便和整洁。
- vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &quot;buttonComponent&quot;: btnComponent }, computed: { fullName() { return this." />
+ vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &#34;buttonComponent&#34;: btnComponent }, computed: { fullName() { return this." />
   <meta name="author" content="夏明" />
   
 
@@ -70,7 +70,7 @@ vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ tit
   <link rel="apple-touch-icon" href="https://xiaming.com.cn/apple-touch-icon.png" />
 
   
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.96.0" />
 
   
   
@@ -91,7 +91,7 @@ vue3中使用了es6的ProxyAPI对数据代理。
  defineProperty只能监听某个属性，不能对全对象监听 可以省去for in、闭包等内容来提升效率（直接绑定整个对象即可） 可以监听数组，不用再去单独的对数组做特异性操作，vue3.x可以检测到数组内部数据的变化   Vue3支持碎片(Fragments) 就是说在组件可以拥有多个根节点。
 vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/div&gt; &lt;/template&gt; vue3 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;/div&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/template&gt; Composition API Vue2与Vue3 最大的区别 — Vue2使用选项类型API（Options API）对比Vue3合成型API（Composition API）
  旧的选项型API在代码里分割了不同的属性: data,computed属性，methods，等等。新的合成型API能让我们用方法（function）来分割，相比于旧的API使用属性来分组，这样代码会更加简便和整洁。
- vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &quot;buttonComponent&quot;: btnComponent }, computed: { fullName() { return this." />
+ vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &#34;buttonComponent&#34;: btnComponent }, computed: { fullName() { return this." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://xiaming.com.cn/post/vue2-vue3/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-06-28T00:00:00+00:00" />
@@ -106,7 +106,7 @@ vue3中使用了es6的ProxyAPI对数据代理。
  defineProperty只能监听某个属性，不能对全对象监听 可以省去for in、闭包等内容来提升效率（直接绑定整个对象即可） 可以监听数组，不用再去单独的对数组做特异性操作，vue3.x可以检测到数组内部数据的变化   Vue3支持碎片(Fragments) 就是说在组件可以拥有多个根节点。
 vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/div&gt; &lt;/template&gt; vue3 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;/div&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/template&gt; Composition API Vue2与Vue3 最大的区别 — Vue2使用选项类型API（Options API）对比Vue3合成型API（Composition API）
  旧的选项型API在代码里分割了不同的属性: data,computed属性，methods，等等。新的合成型API能让我们用方法（function）来分割，相比于旧的API使用属性来分组，这样代码会更加简便和整洁。
- vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &quot;buttonComponent&quot;: btnComponent }, computed: { fullName() { return this."><meta itemprop="datePublished" content="2021-06-28T00:00:00+00:00" />
+ vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &#34;buttonComponent&#34;: btnComponent }, computed: { fullName() { return this."><meta itemprop="datePublished" content="2021-06-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-06-28T00:00:00+00:00" />
 <meta itemprop="wordCount" content="678">
 <meta itemprop="keywords" content="" />
@@ -119,7 +119,7 @@ vue3中使用了es6的ProxyAPI对数据代理。
  defineProperty只能监听某个属性，不能对全对象监听 可以省去for in、闭包等内容来提升效率（直接绑定整个对象即可） 可以监听数组，不用再去单独的对数组做特异性操作，vue3.x可以检测到数组内部数据的变化   Vue3支持碎片(Fragments) 就是说在组件可以拥有多个根节点。
 vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/div&gt; &lt;/template&gt; vue3 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;/div&gt; &lt;h2&gt; {{ title }} &lt;/h2&gt; &lt;/template&gt; Composition API Vue2与Vue3 最大的区别 — Vue2使用选项类型API（Options API）对比Vue3合成型API（Composition API）
  旧的选项型API在代码里分割了不同的属性: data,computed属性，methods，等等。新的合成型API能让我们用方法（function）来分割，相比于旧的API使用属性来分组，这样代码会更加简便和整洁。
- vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &quot;buttonComponent&quot;: btnComponent }, computed: { fullName() { return this."/>
+ vue2 export default { props: { title: String }, data () { return { username: &#39;&#39;, password: &#39;&#39; } }, methods: { login () { // 登陆方法 } }, components: { &#34;buttonComponent&#34;: btnComponent }, computed: { fullName() { return this."/>
 
   
   
@@ -211,13 +211,13 @@ vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ tit
 <p>就是说在组件可以拥有多个根节点。</p>
 <h3 id="vue2">vue2</h3>
 <pre tabindex="0"><code>&lt;template&gt;
-  &lt;div class='form-element'&gt;
+  &lt;div class=&#39;form-element&#39;&gt;
   &lt;h2&gt; {{ title }} &lt;/h2&gt;
   &lt;/div&gt;
 &lt;/template&gt;
 </code></pre><h3 id="vue3">vue3</h3>
 <pre tabindex="0"><code>&lt;template&gt;
-  &lt;div class='form-element'&gt;
+  &lt;div class=&#39;form-element&#39;&gt;
   &lt;/div&gt;
    &lt;h2&gt; {{ title }} &lt;/h2&gt;
 &lt;/template&gt;
@@ -233,8 +233,8 @@ vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ tit
   },
   data () {
     return {
-      username: '',
-      password: ''
+      username: &#39;&#39;,
+      password: &#39;&#39;
     }
   },
   methods: {
@@ -243,11 +243,11 @@ vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ tit
     }
   },
   components: {
-            &quot;buttonComponent&quot;: btnComponent
+            &#34;buttonComponent&#34;: btnComponent
         },
   computed: {
 	  fullName() {
-	    return this.firstName + &quot; &quot; + this.lastName;     
+	    return this.firstName + &#34; &#34; + this.lastName;     
 	  }
   }
 }
@@ -258,8 +258,8 @@ vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ tit
   },
   setup () {
     const state = reactive({ //数据
-      username: '',
-      password: '',
+      username: &#39;&#39;,
+      password: &#39;&#39;,
       lowerCaseUsername: computed(() =&gt; state.username.toLowerCase()) //计算属性
     })
      //方法
@@ -280,8 +280,8 @@ vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ tit
   },
   data () {
     return {
-      username: '',
-      password: ''
+      username: &#39;&#39;,
+      password: &#39;&#39;
     }
   }
 }
@@ -298,7 +298,7 @@ vue2 &lt;template&gt; &lt;div class=&#39;form-element&#39;&gt; &lt;h2&gt; {{ tit
 <p>使用setup()方法来返回我们的响应性数据，从而我们的template可以获取这些响应性数据</p>
 </li>
 </ol>
-<pre tabindex="0"><code>import { reactive } from 'vue'
+<pre tabindex="0"><code>import { reactive } from &#39;vue&#39;
 
 export default {
   props: {
@@ -306,8 +306,8 @@ export default {
   },
   setup () {
     const state = reactive({
-      username: '',
-      password: ''
+      username: &#39;&#39;,
+      password: &#39;&#39;
     })
 
     return { state }
@@ -375,14 +375,14 @@ deactivated   -&gt; onDeactivated
 <p>2、setup 函数中的 props 是响应式的，当传入新的 prop 时，它将被更新。但是，因为 props 是响应式的，你不能使用 ES6 解构，因为它会消除 prop 的响应性。</p>
 <p>如果需要解构 prop，可以通过使用 setup 函数中的<code>toRefs</code>来完成此操作：</p>
 <h4 id="父传子props">父传子，props</h4>
-<pre tabindex="0"><code>import { toRefs } from 'vue'
+<pre tabindex="0"><code>import { toRefs } from &#39;vue&#39;
  
 setup(props) {
 	const { title } = toRefs(props)
  
 	console.log(title.value)
 	 onMounted(() =&gt; {
-      console.log('title: ' + props.title)
+      console.log(&#39;title: &#39; + props.title)
     })
 
 }
@@ -390,7 +390,7 @@ setup(props) {
 <p>举例，现在我们想在点击提交按钮时触发一个login的事件。</p>
 <p>在 Vue2 中我们会调用到this.$emit然后传入事件名和参数对象。</p>
 <pre tabindex="0"><code>login () {
-      this.$emit('login', {
+      this.$emit(&#39;login&#39;, {
         username: this.username,
         password: this.password
       })
@@ -401,7 +401,7 @@ setup(props) {
 <pre tabindex="0"><code>setup (props, { attrs, slots, emit }) {
     // ...
     const login = () =&gt; {
-      emit('login', {
+      emit(&#39;login&#39;, {
         username: state.username,
         password: state.password
       })
@@ -410,7 +410,7 @@ setup(props) {
     // ...
 }
 </code></pre><p>3、setup()内使用响应式数据时，需要通过.value获取</p>
-<pre tabindex="0"><code>import { ref } from 'vue'
+<pre tabindex="0"><code>import { ref } from &#39;vue&#39;
  
 const count = ref(0)
 console.log(count.value) // 0
@@ -420,25 +420,25 @@ console.log(count.value) // 0
 <p>Teleport一般被翻译成瞬间移动组件,实际上是不好理解的.我把他理解成&quot;独立组件&quot;,他可以拿你写的组件挂载到任何你想挂载的DOM上,所以是很自由很独立的</p>
 <p>以一个例子来看:编写一个弹窗组件</p>
 <pre tabindex="0"><code>&lt;template&gt;
-&lt;teleport to=&quot;#modal&quot;&gt;
-  &lt;div id=&quot;center&quot; v-if=&quot;isOpen&quot;&gt;
+&lt;teleport to=&#34;#modal&#34;&gt;
+  &lt;div id=&#34;center&#34; v-if=&#34;isOpen&#34;&gt;
     &lt;h2&gt;&lt;slot&gt;this is a modal&lt;/slot&gt;&lt;/h2&gt;
-    &lt;button @click=&quot;buttonClick&quot;&gt;Close&lt;/button&gt;
+    &lt;button @click=&#34;buttonClick&#34;&gt;Close&lt;/button&gt;
   &lt;/div&gt;
 &lt;/teleport&gt;
 &lt;/template&gt;
-&lt;script lang=&quot;ts&quot;&gt;
+&lt;script lang=&#34;ts&#34;&gt;
 
 export default {
   props: {
     isOpen: Boolean,
   },
   emits: {
-    'close-modal': null
+    &#39;close-modal&#39;: null
   },
   setup(props, context) {
     const buttonClick = () =&gt; {
-      context.emit('close-modal')
+      context.emit(&#39;close-modal&#39;)
     }
     return {
       buttonClick
@@ -461,22 +461,22 @@ export default {
 &lt;/style&gt;
 </code></pre><p>在app.vue中使用的时候跟普通组件调用是一样的</p>
 <pre tabindex="0"><code>&lt;template&gt;
-&lt;div id=&quot;app&quot;&gt;
-  &lt;img alt=&quot;Vue logo&quot; src=&quot;./assets/logo.png&quot;&gt;
-  &lt;HelloWorld msg=&quot;Welcome to Your Vue.js App&quot;/&gt;
+&lt;div id=&#34;app&#34;&gt;
+  &lt;img alt=&#34;Vue logo&#34; src=&#34;./assets/logo.png&#34;&gt;
+  &lt;HelloWorld msg=&#34;Welcome to Your Vue.js App&#34;/&gt;
   &lt;HooksDemo&gt;&lt;/HooksDemo&gt;
-  &lt;button @click=&quot;openModal&quot;&gt;Open Modal&lt;/button&gt;&lt;br/&gt;
-&lt;modal :isOpen=&quot;modalIsOpen&quot; @close-modal=&quot;onModalClose&quot;&gt; My Modal !!!!&lt;/modal&gt;
+  &lt;button @click=&#34;openModal&#34;&gt;Open Modal&lt;/button&gt;&lt;br/&gt;
+&lt;modal :isOpen=&#34;modalIsOpen&#34; @close-modal=&#34;onModalClose&#34;&gt; My Modal !!!!&lt;/modal&gt;
 &lt;/div&gt;
   
 &lt;/template&gt;
 &lt;script&gt;
-import HelloWorld from './components/HelloWorld.vue'
-import HooksDemo from './components/HooksDemo.vue'
-import Modal from './components/Modal.vue'
-import{ref} from 'vue'
+import HelloWorld from &#39;./components/HelloWorld.vue&#39;
+import HooksDemo from &#39;./components/HooksDemo.vue&#39;
+import Modal from &#39;./components/Modal.vue&#39;
+import{ref} from &#39;vue&#39;
 export default {
-  name: 'App',
+  name: &#39;App&#39;,
   components: {
     HelloWorld,
     HooksDemo,
@@ -522,28 +522,28 @@ export default {
 <p>Teleport 可以把modal组件渲染到任意你想渲染的外部Dom上,不必嵌套在#app中,这样就可以互不干扰了,可以把Teleport看成一个传送门,把你的组件传送到任何地方</p>
 <p>使用的时候 to属性可以确定想要挂载的DOM节点下面</p>
 <pre tabindex="0"><code>&lt;template&gt;
-  &lt;teleport to=&quot;#modal&quot;&gt;
-    &lt;div id=&quot;center&quot;&gt;
+  &lt;teleport to=&#34;#modal&#34;&gt;
+    &lt;div id=&#34;center&#34;&gt;
       &lt;h2&gt;夏明&lt;/h2&gt;
     &lt;/div&gt;
   &lt;/teleport&gt;
 &lt;/template&gt;
 </code></pre><p>在public文件夹下的index.html中增加一个节点</p>
 <pre tabindex="0"><code>&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
+&lt;html lang=&#34;en&#34;&gt;
   &lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1.0&quot;&gt;
-    &lt;link rel=&quot;icon&quot; href=&quot;&lt;%= BASE_URL %&gt;favicon.ico&quot;&gt;
+    &lt;meta charset=&#34;utf-8&#34;&gt;
+    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width,initial-scale=1.0&#34;&gt;
+    &lt;link rel=&#34;icon&#34; href=&#34;&lt;%= BASE_URL %&gt;favicon.ico&#34;&gt;
     &lt;title&gt;&lt;%= htmlWebpackPlugin.options.title %&gt;&lt;/title&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;noscript&gt;
-      &lt;strong&gt;We're sorry but &lt;%= htmlWebpackPlugin.options.title %&gt; doesn't work properly without JavaScript enabled. Please enable it to continue.&lt;/strong&gt;
+      &lt;strong&gt;We&#39;re sorry but &lt;%= htmlWebpackPlugin.options.title %&gt; doesn&#39;t work properly without JavaScript enabled. Please enable it to continue.&lt;/strong&gt;
     &lt;/noscript&gt;
-    &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;
-    &lt;div id=&quot;modal&quot;&gt;&lt;/div&gt;
+    &lt;div id=&#34;app&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;modal&#34;&gt;&lt;/div&gt;
     &lt;!-- built files will be auto injected --&gt;
   &lt;/body&gt;
 &lt;/html&gt;

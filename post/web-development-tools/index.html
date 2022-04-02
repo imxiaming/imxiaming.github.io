@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="zh">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>前端常用网站及工具 - 夏明</title>
+
+  
+  
+  <meta name="description" content="常用网站 必知 w3school：https://www.w3school.com.cn/index.html
+菜鸟教程：https://www.runoob.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Less官网（CSS预处理器，通过编程的方式来开发CSS）：http://lesscss.org/
+ES6入门（阮一峰大佬的）：http://es6.ruanyifeng.com/
+babel（将ES6代码转为ES5代码）：https://babeljs.io/
+MDN开发者文档：https://developer.mozilla.org/zh-CN/
+NodeJS官网：http://nodejs.cn/
+三大流行框架 Vue.JS：https://cn.vuejs.org/
+Angular：https://www.angular.cn
+React：https://react.docschina.org/
+常用组件库及插件 饿了么element-ui：https://element.eleme.cn/
+Ant Design：https://ant.design/components/overview-cn/
+Ant Design of Vue：https://www.antdv.com/docs/vue/introduce-cn/
+mint-ui：http://mint-ui.github.io/docs/
+vant-ui：https://vant-contrib.gitee.io/vant/
+iViewUI：https://www.iviewui.com/
+阿里图标库：https://www.iconfont.cn/
+图表库Echarts：https://www.echartsjs.com/index.html
+前端打包工具 webpack：https://webpack.js.org/
+gulp中文文档：https://www.gulpjs.com.cn/docs/
+代码托管 github代码托管平台：https://github.com/
+git官网：https://git-scm.com/
+coding代码托管平台：https://coding.net/
+码云代码托管平台：https://gitee.com/
+SVN代码托管平台：https://svnbucket.com/
+SVN代码托管中心：http://www.svnchina.com/
+常看 CSDN：https://csdn.net/
+思否（问答网站）：https://segmentfault.com/
+掘金：https://juejin.cn/frontend
+OSCHINA：https://www.oschina.net/
+常用工具 Sourcetree（GIt可视化工具）：https://www.sourcetreeapp.com/
+Snipaste（截图贴图工具）：https://zh.snipaste.com/
+Vetur（VSCode插件，VSCode应用商店搜索安装）
+ESLint（VSCode插件，VSCode应用商店搜索安装），配置方法如下：
+在settings.json文件中加入以下代码：
+&#34;eslint.validate&#34;: [  &#34;javascript&#34;,  &#34;javascriptreact&#34;,  {  &#34;language&#34;: &#34;html&#34;,  &#34;autoFix&#34;: true  },  {  &#34;language&#34;: &#34;vue&#34;,  &#34;autoFix&#34;: true  } ], &#34;eslint." />
+  <meta name="author" content="夏明" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://xiaming.com.cn/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://xiaming.com.cn/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://xiaming.com.cn/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://xiaming.com.cn/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://xiaming.com.cn/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://xiaming.com.cn/github.svg" />
+  
+  <link rel="preload" as="image" href="https://xiaming.com.cn/instagram.svg" />
+  
+
+  
+  <link rel="icon" href="https://xiaming.com.cn/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://xiaming.com.cn/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.96.0" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="前端常用网站及工具" />
+<meta property="og:description" content="常用网站 必知 w3school：https://www.w3school.com.cn/index.html
+菜鸟教程：https://www.runoob.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Less官网（CSS预处理器，通过编程的方式来开发CSS）：http://lesscss.org/
+ES6入门（阮一峰大佬的）：http://es6.ruanyifeng.com/
+babel（将ES6代码转为ES5代码）：https://babeljs.io/
+MDN开发者文档：https://developer.mozilla.org/zh-CN/
+NodeJS官网：http://nodejs.cn/
+三大流行框架 Vue.JS：https://cn.vuejs.org/
+Angular：https://www.angular.cn
+React：https://react.docschina.org/
+常用组件库及插件 饿了么element-ui：https://element.eleme.cn/
+Ant Design：https://ant.design/components/overview-cn/
+Ant Design of Vue：https://www.antdv.com/docs/vue/introduce-cn/
+mint-ui：http://mint-ui.github.io/docs/
+vant-ui：https://vant-contrib.gitee.io/vant/
+iViewUI：https://www.iviewui.com/
+阿里图标库：https://www.iconfont.cn/
+图表库Echarts：https://www.echartsjs.com/index.html
+前端打包工具 webpack：https://webpack.js.org/
+gulp中文文档：https://www.gulpjs.com.cn/docs/
+代码托管 github代码托管平台：https://github.com/
+git官网：https://git-scm.com/
+coding代码托管平台：https://coding.net/
+码云代码托管平台：https://gitee.com/
+SVN代码托管平台：https://svnbucket.com/
+SVN代码托管中心：http://www.svnchina.com/
+常看 CSDN：https://csdn.net/
+思否（问答网站）：https://segmentfault.com/
+掘金：https://juejin.cn/frontend
+OSCHINA：https://www.oschina.net/
+常用工具 Sourcetree（GIt可视化工具）：https://www.sourcetreeapp.com/
+Snipaste（截图贴图工具）：https://zh.snipaste.com/
+Vetur（VSCode插件，VSCode应用商店搜索安装）
+ESLint（VSCode插件，VSCode应用商店搜索安装），配置方法如下：
+在settings.json文件中加入以下代码：
+&#34;eslint.validate&#34;: [  &#34;javascript&#34;,  &#34;javascriptreact&#34;,  {  &#34;language&#34;: &#34;html&#34;,  &#34;autoFix&#34;: true  },  {  &#34;language&#34;: &#34;vue&#34;,  &#34;autoFix&#34;: true  } ], &#34;eslint." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xiaming.com.cn/post/web-development-tools/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-02-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-22T00:00:00+00:00" />
+
+
+  
+  <meta itemprop="name" content="前端常用网站及工具">
+<meta itemprop="description" content="常用网站 必知 w3school：https://www.w3school.com.cn/index.html
+菜鸟教程：https://www.runoob.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Less官网（CSS预处理器，通过编程的方式来开发CSS）：http://lesscss.org/
+ES6入门（阮一峰大佬的）：http://es6.ruanyifeng.com/
+babel（将ES6代码转为ES5代码）：https://babeljs.io/
+MDN开发者文档：https://developer.mozilla.org/zh-CN/
+NodeJS官网：http://nodejs.cn/
+三大流行框架 Vue.JS：https://cn.vuejs.org/
+Angular：https://www.angular.cn
+React：https://react.docschina.org/
+常用组件库及插件 饿了么element-ui：https://element.eleme.cn/
+Ant Design：https://ant.design/components/overview-cn/
+Ant Design of Vue：https://www.antdv.com/docs/vue/introduce-cn/
+mint-ui：http://mint-ui.github.io/docs/
+vant-ui：https://vant-contrib.gitee.io/vant/
+iViewUI：https://www.iviewui.com/
+阿里图标库：https://www.iconfont.cn/
+图表库Echarts：https://www.echartsjs.com/index.html
+前端打包工具 webpack：https://webpack.js.org/
+gulp中文文档：https://www.gulpjs.com.cn/docs/
+代码托管 github代码托管平台：https://github.com/
+git官网：https://git-scm.com/
+coding代码托管平台：https://coding.net/
+码云代码托管平台：https://gitee.com/
+SVN代码托管平台：https://svnbucket.com/
+SVN代码托管中心：http://www.svnchina.com/
+常看 CSDN：https://csdn.net/
+思否（问答网站）：https://segmentfault.com/
+掘金：https://juejin.cn/frontend
+OSCHINA：https://www.oschina.net/
+常用工具 Sourcetree（GIt可视化工具）：https://www.sourcetreeapp.com/
+Snipaste（截图贴图工具）：https://zh.snipaste.com/
+Vetur（VSCode插件，VSCode应用商店搜索安装）
+ESLint（VSCode插件，VSCode应用商店搜索安装），配置方法如下：
+在settings.json文件中加入以下代码：
+&#34;eslint.validate&#34;: [  &#34;javascript&#34;,  &#34;javascriptreact&#34;,  {  &#34;language&#34;: &#34;html&#34;,  &#34;autoFix&#34;: true  },  {  &#34;language&#34;: &#34;vue&#34;,  &#34;autoFix&#34;: true  } ], &#34;eslint."><meta itemprop="datePublished" content="2022-02-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-02-22T00:00:00+00:00" />
+<meta itemprop="wordCount" content="74">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="前端常用网站及工具"/>
+<meta name="twitter:description" content="常用网站 必知 w3school：https://www.w3school.com.cn/index.html
+菜鸟教程：https://www.runoob.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/
+Less官网（CSS预处理器，通过编程的方式来开发CSS）：http://lesscss.org/
+ES6入门（阮一峰大佬的）：http://es6.ruanyifeng.com/
+babel（将ES6代码转为ES5代码）：https://babeljs.io/
+MDN开发者文档：https://developer.mozilla.org/zh-CN/
+NodeJS官网：http://nodejs.cn/
+三大流行框架 Vue.JS：https://cn.vuejs.org/
+Angular：https://www.angular.cn
+React：https://react.docschina.org/
+常用组件库及插件 饿了么element-ui：https://element.eleme.cn/
+Ant Design：https://ant.design/components/overview-cn/
+Ant Design of Vue：https://www.antdv.com/docs/vue/introduce-cn/
+mint-ui：http://mint-ui.github.io/docs/
+vant-ui：https://vant-contrib.gitee.io/vant/
+iViewUI：https://www.iviewui.com/
+阿里图标库：https://www.iconfont.cn/
+图表库Echarts：https://www.echartsjs.com/index.html
+前端打包工具 webpack：https://webpack.js.org/
+gulp中文文档：https://www.gulpjs.com.cn/docs/
+代码托管 github代码托管平台：https://github.com/
+git官网：https://git-scm.com/
+coding代码托管平台：https://coding.net/
+码云代码托管平台：https://gitee.com/
+SVN代码托管平台：https://svnbucket.com/
+SVN代码托管中心：http://www.svnchina.com/
+常看 CSDN：https://csdn.net/
+思否（问答网站）：https://segmentfault.com/
+掘金：https://juejin.cn/frontend
+OSCHINA：https://www.oschina.net/
+常用工具 Sourcetree（GIt可视化工具）：https://www.sourcetreeapp.com/
+Snipaste（截图贴图工具）：https://zh.snipaste.com/
+Vetur（VSCode插件，VSCode应用商店搜索安装）
+ESLint（VSCode插件，VSCode应用商店搜索安装），配置方法如下：
+在settings.json文件中加入以下代码：
+&#34;eslint.validate&#34;: [  &#34;javascript&#34;,  &#34;javascriptreact&#34;,  {  &#34;language&#34;: &#34;html&#34;,  &#34;autoFix&#34;: true  },  {  &#34;language&#34;: &#34;vue&#34;,  &#34;autoFix&#34;: true  } ], &#34;eslint."/>
+
+  
+  
+</head>
+
+
+  <body class="not-ready" data-menu="false">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://xiaming.com.cn/">夏明</a><a class="btn-dark"></a>
+  </p>
+  
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+
+  
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="instagram"
+      style="--url: url(./instagram.svg)"
+      href="https://instagram.com/"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      <time>2022年2月22日</time>
+      
+      <span>夏明</span>
+      
+    </p>
+    <h1>前端常用网站及工具</h1>
+  </header>
+  <section class="post-content"><h2 id="常用网站">常用网站</h2>
+<h3 id="必知">必知</h3>
+<p>w3school：https://www.w3school.com.cn/index.html</p>
+<p>菜鸟教程：https://www.runoob.com/</p>
+<p>Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/</p>
+<p>Sass官网（CSS预处理器，通过编程的方式来开发CSS）：https://sass-lang.com/</p>
+<p>Less官网（CSS预处理器，通过编程的方式来开发CSS）：http://lesscss.org/</p>
+<p>ES6入门（阮一峰大佬的）：http://es6.ruanyifeng.com/</p>
+<p>babel（将ES6代码转为ES5代码）：https://babeljs.io/</p>
+<p>MDN开发者文档：https://developer.mozilla.org/zh-CN/</p>
+<p>NodeJS官网：http://nodejs.cn/</p>
+<h3 id="三大流行框架">三大流行框架</h3>
+<p>Vue.JS：https://cn.vuejs.org/</p>
+<p>Angular：https://www.angular.cn</p>
+<p>React：https://react.docschina.org/</p>
+<h3 id="常用组件库及插件">常用组件库及插件</h3>
+<p>饿了么element-ui：https://element.eleme.cn/</p>
+<p>Ant Design：https://ant.design/components/overview-cn/</p>
+<p>Ant Design of Vue：https://www.antdv.com/docs/vue/introduce-cn/</p>
+<p>mint-ui：http://mint-ui.github.io/docs/</p>
+<p>vant-ui：https://vant-contrib.gitee.io/vant/</p>
+<p>iViewUI：https://www.iviewui.com/</p>
+<p>阿里图标库：https://www.iconfont.cn/</p>
+<p>图表库Echarts：https://www.echartsjs.com/index.html</p>
+<h3 id="前端打包工具">前端打包工具</h3>
+<p>webpack：https://webpack.js.org/</p>
+<p>gulp中文文档：https://www.gulpjs.com.cn/docs/</p>
+<h3 id="代码托管">代码托管</h3>
+<p>github代码托管平台：https://github.com/</p>
+<p>git官网：https://git-scm.com/</p>
+<p>coding代码托管平台：https://coding.net/</p>
+<p>码云代码托管平台：https://gitee.com/</p>
+<p>SVN代码托管平台：https://svnbucket.com/</p>
+<p>SVN代码托管中心：http://www.svnchina.com/</p>
+<h3 id="常看">常看</h3>
+<p>CSDN：https://csdn.net/</p>
+<p>思否（问答网站）：https://segmentfault.com/</p>
+<p>掘金：https://juejin.cn/frontend</p>
+<p>OSCHINA：https://www.oschina.net/</p>
+<h2 id="常用工具">常用工具</h2>
+<p>Sourcetree（GIt可视化工具）：https://www.sourcetreeapp.com/</p>
+<p>Snipaste（截图贴图工具）：https://zh.snipaste.com/</p>
+<p>Vetur（VSCode插件，VSCode应用商店搜索安装）</p>
+<p>ESLint（VSCode插件，VSCode应用商店搜索安装），配置方法如下：</p>
+<p>在<code>settings.json</code>文件中加入以下代码：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#e6db74">&#34;eslint.validate&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;javascript&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;javascriptreact&#34;</span>,
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;language&#34;</span>: <span style="color:#e6db74">&#34;html&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;autoFix&#34;</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;language&#34;</span>: <span style="color:#e6db74">&#34;vue&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;autoFix&#34;</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>]<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;eslint.autoFixOnSave&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">true</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span></code></pre></div><p>vue-devtools，安装方法如下：</p>
+<ol>
+<li>
+<p>运行命令：<code>npm install vue-devtools</code></p>
+</li>
+<li>
+<p>进入<code>node_modules/vue-devtools/vender</code>，打开<code>manifest.json</code>，修改<code>persistent</code>为<code>true</code>，保存</p>
+</li>
+<li>
+<p>在chrome的扩展程序页面里加载已解压的扩展程序，选择vender文件夹即可</p>
+</li>
+</ol>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="post-nav">
+     
+    <a class="next" href="https://xiaming.com.cn/post/2021-buy-electronics/"><span>2021年买的电子产品</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>&copy; 2014 - 2022 <a href="https://xiaming.com.cn/">夏明</a></p>
+  <p><a href="/about/">关于</a></p>
+</footer>
+
+  </body>
+</html>
